@@ -38,31 +38,7 @@ The project employed a variety of technologies, including:
 - **Java**
 - **Maven**
 - **HTML/CSS** (for the web application)
-- **React.js or Vanilla JavaScript** (for front-end if applicable)
 
-## Setup Instructions
-To set up the application, follow these steps:
-
-1. **Clone the Repository**: 
-   Obtain the project files by cloning the repository from GitHub.
-
-2. **Kafka Setup**: 
-   Follow the Kafka setup steps outlined above.
-
-3. **Docker Setup**: 
-   Ensure Docker is installed. Navigate to the project directory containing the `docker-compose.yml` file and launch the services.
-
-4. **Run the Spring Boot Application**: 
-   The application can be executed using your IDE or Maven.
-
-## Endpoints
-The application provides the following endpoints:
-
-- **Publish Page Event**: 
-  - `POST /publish/{topic}/{name}`: Publishes a new `PageEvent` message to the specified Kafka topic.
-
-- **Analytics**: 
-  - `GET /analytics`: Fetches real-time analytics data as a stream.
 
 ## Testing the Application
 To test the application, Kafka console tools can be used to produce and consume messages.
